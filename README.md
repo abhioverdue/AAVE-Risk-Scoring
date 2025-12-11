@@ -2,11 +2,11 @@
 
 This project implements a comprehensive risk scoring system for Ethereum wallets based on their transaction behavior within the Compound V2/V3 lending protocols.
 
-## 📌 Overview
+## Overview
 
 The system analyzes wallet transaction patterns to assign risk scores ranging from **0 (highest risk)** to **1000 (lowest risk)**. The scoring model evaluates multiple behavioral indicators to assess the likelihood of risky or suspicious activity.
 
-## 🎯 Features
+## Features
 
 - **Transaction History Analysis**: Fetches complete transaction data from Compound V2/V3 protocols
 - **Multi-dimensional Risk Assessment**: Evaluates wallets across multiple risk indicators
@@ -14,7 +14,7 @@ The system analyzes wallet transaction patterns to assign risk scores ranging fr
 - **Scalable Architecture**: Designed to handle large wallet datasets efficiently
 - **Comprehensive Documentation**: Clear methodology and justification for all risk factors
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 wallet-risk-scoring/
@@ -29,7 +29,7 @@ wallet-risk-scoring/
     └── scoring.py            # Risk scoring algorithm
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -153,14 +153,14 @@ RISK_THRESHOLDS = {
 | Slow processing | Implement request batching for large datasets |
 | Empty results | Check wallet addresses are valid Ethereum addresses |
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 - **Processing Speed**: ~2-3 wallets per second
 - **API Rate Limits**: Respects Covalent's rate limiting
 - **Memory Usage**: Optimized for large datasets
 - **Accuracy**: Validated against known risky wallet patterns
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - **Machine Learning**: Implement supervised learning models
 - **Real-time Monitoring**: Add continuous risk assessment
@@ -168,7 +168,7 @@ RISK_THRESHOLDS = {
 - **Advanced Features**: MEV detection, flash loan analysis
 - **Risk Categories**: Granular risk classification system
 
-## 📚 Dependencies
+## Dependencies
 
 ```txt
 requests>=2.28.0
@@ -178,7 +178,7 @@ scikit-learn>=1.2.0
 python-dotenv>=1.0.0
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/new-feature`)
@@ -186,17 +186,10 @@ python-dotenv>=1.0.0
 4. Push to branch (`git push origin feature/new-feature`)
 5. Create Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see LICENSE file for details.
 
-## 📞 Support
 
-For questions or issues:
-- Open a GitHub issue
-- Contact: [your-email@domain.com]
-- Documentation: [project-docs-url]
-
----
 
 **Note**: This system is designed for risk assessment purposes. Always combine with additional due diligence for critical decision-making.
